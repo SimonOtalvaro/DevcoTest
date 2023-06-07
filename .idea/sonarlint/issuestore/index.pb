@@ -233,8 +233,6 @@ S
 #target/site/serenity/css/screen.css,4\0\403073540fcdc4ff7bc0296a9cfc7ee2a784183b
 W
 'target/site/serenity/serenity-resources,9\d\9d419a4331b11ab890f6117b88a518502c3e22c1
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 Z
 *target/site/serenity/jit/css/Spacetree.css,d\6\d60d99f4d515037a1f1818207871c780a1217f41
 c

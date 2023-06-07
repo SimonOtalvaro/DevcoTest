@@ -227,8 +227,6 @@ Q
 !target/site/serenity/css/link.css,d\6\d674971839958fa3234deb41e682681b1a6eef0c
 z
 Jtarget/site/serenity/fontawesome-free-5.7.2-web/webfonts/fa-brands-400.svg,c\7\c7375558bdd650d6b13520f10627d89922eaadd8
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 U
 %target/site/serenity/jit/css/base.css,5\7\5718224796608473f52ac019cd6eea7f671acec3
 Y
