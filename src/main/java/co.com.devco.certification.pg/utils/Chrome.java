@@ -20,7 +20,7 @@ public class Chrome {
     }
 
     public ChromeDriver pruebaX(){
-        driver.get("https://www.google.com/");
+        driver.get("https://www.online-notepad.net/es/bloc-de-notas-online");
         return driver;
     }
 
