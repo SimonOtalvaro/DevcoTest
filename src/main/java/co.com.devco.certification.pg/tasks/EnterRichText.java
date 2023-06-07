@@ -21,12 +21,15 @@ public class EnterRichText implements Task {
         actor.attemptsTo(
                 Click.on(BUTTON_RICH_NOTE),
                 WaitUntil.the(BUTTON_BOLD,WebElementStateMatchers.isEnabled()).forNoMoreThan(5).seconds(),
+                Enter.theValue("Simon").into(INPUT_NAME),
                 Click.on(BUTTON_BOLD),
                 Enter.theValue(" Esto es una prueba para Devco").into(INPUT_TEXT),
-                Click.on(BUTTON_SAVE)
+                Click.on(BUTTON_SAVE),
+                WaitUntil.the(INPUT_NAME2,WebElementStateMatchers.isEnabled()).forNoMoreThan(5).seconds()
+
         );
-        actor.remember("NameInput",INPUT_NAME.resolveFor(actor).getText());
         actor.remember("NameNote",INPUT_NAME2.resolveFor(actor).getText());
+
     }
 
     public static EnterRichText enter(){

@@ -15,7 +15,7 @@ public class NotePage {
                 located(By.xpath("(//*[@class='ck ck-icon ck-button__icon'])[7]"));
 
         public static final Target INPUT_NAME = Target.the("Name of the note").
-                located(By.xpath("(//*[@class='fs-24 date d-inline-block']"));
+                located(By.xpath("//*[@class='fs-24 date d-inline-block']"));
 
         public static final Target INPUT_TEXT = Target.the("Input to enter the text").
                 located(By.xpath("//*[@id='editor']"));
@@ -24,7 +24,7 @@ public class NotePage {
                 located(By.xpath("//button[@class='btn save-file-btn saveNotesBtn richtextnoteBtn']"));
 
         public static final Target INPUT_NAME2 = Target.the("Name of the saved note").
-                located(By.xpath("(//*[@class='noteItem']"));
+                located(By.xpath("//*[@class='noteItem'][1]"));
 
 
 }
