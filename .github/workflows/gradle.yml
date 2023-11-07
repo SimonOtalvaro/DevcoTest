@@ -26,8 +26,14 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v2
 
+    - name: Set up Gradle 7.6.1
+      run: |
+        wget https://services.gradle.org/distributions/gradle-7.6.1-bin.zip
+        unzip -d /opt/gradle gradle-7.6.1-bin.zip
+        export PATH=$PATH:/opt/gradle/gradle-7.6.1/bin
+
     - name: Build with Gradle
-      run: ./gradlew build
+      run: gradle build
 
     - name: Run Tests
-      run: ./gradlew test
+      run: gradle test
