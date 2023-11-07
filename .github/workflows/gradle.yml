@@ -31,6 +31,9 @@ jobs:
         unzip -d /opt/gradle gradle-7.6.1-bin.zip
         export PATH=$PATH:/opt/gradle/gradle-7.6.1/bin
 
+    - name: Init
+      run: gradle init
+
     - name: Build with Gradle
       run: gradle build
 
